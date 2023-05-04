@@ -1,0 +1,60 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Comme&family=Montserrat:wght@500&family=Open+Sans&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100vh;
+}
+div {
+  height: 100%; /* parent for table */
+}
+caption {
+  font-size: 18px;
+  padding: 20px;
+  color: #6757be;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(233, 233, 233);
+  border-spacing: 0;
+  font-family: "comme", sans-serif;
+  font-size: 13px;
+}
+table {
+  height: 70%; /* this height is depend on the parent height */
+  width: 90%;
+  margin: 16px;
+  border-radius: 15px;
+}
+th {
+  text-transform: uppercase;
+  text-align: left;
+  color: rgb(192, 192, 192);
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+}
+td {
+  padding: 10px;
+  border: none;
+}
+tr:nth-child(odd) {
+  background-color: rgba(
+    220,
+    220,
+    220,
+    0.2
+  ); /* it focus the odd child starting from header to last child */
+}
+.edit {
+  color: #6757be;
+}
+.name {
+  font-weight: bold;
+}
